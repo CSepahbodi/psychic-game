@@ -9,3 +9,7 @@ var guessesLeft = 9;
 
 //variable for guessed letters
 var guessedLetters = [];
+
+//now we have to have the computer randomly guess a letter from 'var computerChoices
+var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
